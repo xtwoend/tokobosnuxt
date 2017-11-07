@@ -1,0 +1,1079 @@
+/* Media Queries */
+
+@media screen and (min-width:768px) and (max-width: 959px) {
+
+body {
+  min-width: 768px;
+  min-height: 1024px;
+  height: auto;
+  overflow-x:hidden;
+}
+
+/* Containers
+----------------------------------------------------------------------------------------------------*/
+.container {
+	width: 748px;
+}
+
+.body-container {
+  width: 100%;
+  max-width: 788px;
+  min-height: 860px;
+  height: auto;
+}
+
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+	margin-left: 8px;
+	margin-right: 7px;
+}
+
+
+/* Grid >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.container .grid_1 {
+	width:49px;
+}
+.container .grid_2 {
+	width:113px;
+}
+.container .grid_3 {
+	width:177px;
+}
+.container .grid_4 {
+	width:231px;/* editted */
+}
+.container .grid_5 {
+	width:305px;
+}
+.container .grid_6 {
+	width:359px;/* editted */
+}
+.container .grid_7 {
+	width:433px;
+}
+.container .grid_8 {
+	width:487px;/* editted original 497px */
+}
+.container .grid_9 {
+	width:541px;/* editted */
+}
+.container .grid_10 {
+	width:625px;
+}
+.container .grid_11 {
+	width:689px;
+}
+.container .grid_12 {
+	width:733px;
+}
+    
+/* Span
+----------------------------------------------------------------------------------------------------*/
+
+.span1,
+.span2,
+.span3,
+.span4,
+.span5,
+.span6,
+/*.span7,*/
+.span8,
+.span9,
+/*.span10,*/
+.span11,
+.span12 {
+  width: 100%;
+}
+    
+.span7 {
+  width: 100%;
+  float: left;
+}
+    
+.span10 { width: 688px; }
+
+/* Media max-widths
+----------------------------------------------------------------------------------------------------*/
+
+.container .grid_1 img, .container .grid_1 iframe, .container .grid_1 embed,
+.container .grid_1 img, .container .grid_1 iframe, .container .grid_1 embed,
+.container .grid_2 img, .container .grid_2 iframe, .container .grid_2 embed,
+.container .grid_2 img, .container .grid_2 iframe, .container .grid_2 embed,
+.container .grid_3 img, .container .grid_3 iframe, .container .grid_3 embed,
+.container .grid_3 img, .container .grid_3 iframe, .container .grid_3 embed,
+.container .grid_4 img, .container .grid_4 iframe, .container .grid_4 embed,
+.container .grid_4 img, .container .grid_4 iframe, .container .grid_4 embed,
+.container .grid_5 img, .container .grid_5 iframe, .container .grid_5 embed,
+.container .grid_5 img, .container .grid_5 iframe, .container .grid_5 embed,
+.container .grid_6 img, .container .grid_6 iframe, .container .grid_6 embed ,
+.container .grid_6 img, .container .grid_6 iframe, .container .grid_6 embed,
+.container .grid_7 img, .container .grid_7 iframe, .container .grid_7 embed,
+.container .grid_7 img, .container .grid_7 iframe, .container .grid_7 embed,
+.container .grid_8 img, .container .grid_8 iframe, .container .grid_8 embed,
+.container .grid_8 img, .container .grid_8 iframe, .container .grid_8 embed,
+.container .grid_9 img, .container .grid_9 iframe, .container .grid_9 embed,
+.container .grid_9 img, .container .grid_9 iframe, .container .grid_9 embed,
+.container .grid_10 img, .container .grid_10 iframe, .container .grid_10 embed,
+.container .grid_10 img, .container .grid_10 iframe, .container .grid_10 embed,
+.container .grid_11 img, .container .grid_11 iframe, .container .grid_11 embed,
+.container .grid_11 img, .container .grid_11 iframe, .container .grid_11 embed,
+.container .grid_12 img, .container .grid_12 iframe, .container .grid_12 embed,
+.container .grid_12 img, .container .grid_12 iframe, .container .grid_12 embed {
+	max-width:100% !important;
+}
+
+.container div img {
+	height:auto;
+}
+
+/* Prefix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.container .prefix_1 {
+	padding-left:64px;
+}
+
+.container .prefix_2 {
+	padding-left:128px;
+}
+
+.container .prefix_3 {
+	padding-left:192px;
+}
+
+.container .prefix_4 {
+	padding-left:256px;
+}
+
+.container .prefix_5 {
+	padding-left:320px;
+}
+
+.container .prefix_6 {
+	padding-left:384px;
+}
+
+.container .prefix_7 {
+	padding-left:448px;
+}
+
+.container .prefix_8 {
+	padding-left:512px;
+}
+
+.container .prefix_9 {
+	padding-left:576px;
+}
+
+.container .prefix_10 {
+	padding-left:640px;
+}
+
+.container .prefix_11 {
+	padding-left:704px;
+}
+
+.container .grid_12[class*="prefix_"] {
+    padding-left:0;
+}
+
+/* Suffix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.container .suffix_1 {
+	padding-right:64px;
+}
+
+.container .suffix_2 {
+	padding-right:128px;
+}
+
+.container .suffix_3 {
+	padding-right:192px;
+}
+
+.container .suffix_4 {
+	padding-right:256px;
+}
+
+.container .suffix_5 {
+	padding-right:320px;
+}
+
+.container .suffix_6 {
+	padding-right:384px;
+}
+
+.container .suffix_7 {
+	padding-right:448px;
+}
+
+.container .suffix_8 {
+	padding-right:512px;
+}
+
+.container .suffix_9 {
+	padding-right:576px;
+}
+
+.container .suffix_10 {
+	padding-right:640px;
+}
+
+.container .suffix_11 {
+	padding-right:704px;
+}
+
+.container .grid_12[class*="suffix_"] {
+    padding-right:0;
+}
+
+
+/* Push Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.container .push_1 {
+	left:64px;
+}
+
+.container .push_2 {
+	left:128px;
+}
+
+.container .push_3 {
+	left:192px;
+}
+
+.container .push_4 {
+	left:256px;
+}
+
+.container .push_5 {
+	left:320px;
+}
+
+.container .push_6 {
+	left:384px;
+}
+
+.container .push_7 {
+	left:448px;
+}
+
+.container .push_8 {
+	left:512px;
+}
+
+.container .push_9 {
+	left:576px;
+}
+
+.container .push_10 {
+	left:640px;
+}
+
+.container .push_11 {
+	left:704px;
+}
+
+
+
+/* Pull Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.container .pull_1 {
+	left:-64px;
+}
+
+.container .pull_2 {
+	left:-128px;
+}
+
+.container .pull_3 {
+	left:-192px;
+}
+
+.container .pull_4 {
+	left:-256px;
+}
+
+.container .pull_5 {
+	left:-320px;
+}
+
+.container .pull_6 {
+	left:-384px;
+}
+
+.container .pull_7 {
+	left:-448px;
+}
+
+.container .pull_8 {
+	left:-512px;
+}
+
+.container .pull_9 {
+	left:-576px;
+}
+
+.container .pull_10 {
+	left:-640px;
+}
+
+.container .pull_11 {
+	left:-704px;
+}
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear_768 { /* clear only for this resolution */
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* Show/hide for mode
+----------------------------------------------------------------------------------------------------*/
+
+.not_768 {
+	display:none !important;
+}
+
+.only_768 {
+	display:block !important;
+}
+}
+
+
+@media screen and (min-width:480px) and (max-width: 767px) {
+
+body {
+  min-width: 480px;
+  min-height: 640px;
+  height: auto;
+  overflow-x:hidden;
+}
+
+/* Containers
+----------------------------------------------------------------------------------------------------*/
+.container {
+  width: 480px;  
+}
+
+.body-container {
+  width: 100%;
+  max-width: 520px;
+  min-height: 100vh;
+}
+
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+/* Grid >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.container .grid_1, 
+/*.container .grid_2,*/
+.container .grid_3,
+/*.container .grid_4,*/
+.container .grid_5,
+/*.container .grid_6,*/
+.container .grid_7,
+.container .grid_8,
+.container .grid_9,
+.container .grid_10,
+.container .grid_11,
+.container .grid_12 {
+	width:470px;
+}
+
+.container .grid_2 { width: 190px; }
+
+.container .grid_4, 
+.container .grid_6 { width: 230px; }
+
+/* Span
+----------------------------------------------------------------------------------------------------*/
+
+.span1,
+.span2,
+.span3,
+.span4,
+.span5,
+.span6,
+.span7,
+.span8,
+.span9,
+.span10,
+.span11,
+.span12 {
+  width: 100%;
+}
+
+/* Media max-widths
+----------------------------------------------------------------------------------------------------*/
+
+.container .grid_1 img, .container .grid_1 iframe, .container .grid_1 embed,
+.container .grid_1 img, .container .grid_1 iframe, .container .grid_1 embed,
+.container .grid_2 img, .container .grid_2 iframe, .container .grid_2 embed,
+.container .grid_2 img, .container .grid_2 iframe, .container .grid_2 embed,
+.container .grid_3 img, .container .grid_3 iframe, .container .grid_3 embed,
+.container .grid_3 img, .container .grid_3 iframe, .container .grid_3 embed,
+.container .grid_4 img, .container .grid_4 iframe, .container .grid_4 embed,
+.container .grid_4 img, .container .grid_4 iframe, .container .grid_4 embed,
+.container .grid_5 img, .container .grid_5 iframe, .container .grid_5 embed,
+.container .grid_5 img, .container .grid_5 iframe, .container .grid_5 embed,
+.container .grid_6 img, .container .grid_6 iframe, .container .grid_6 embed ,
+.container .grid_6 img, .container .grid_6 iframe, .container .grid_6 embed,
+.container .grid_7 img, .container .grid_7 iframe, .container .grid_7 embed,
+.container .grid_7 img, .container .grid_7 iframe, .container .grid_7 embed,
+.container .grid_8 img, .container .grid_8 iframe, .container .grid_8 embed,
+.container .grid_8 img, .container .grid_8 iframe, .container .grid_8 embed,
+.container .grid_9 img, .container .grid_9 iframe, .container .grid_9 embed,
+.container .grid_9 img, .container .grid_9 iframe, .container .grid_9 embed,
+.container .grid_10 img, .container .grid_10 iframe, .container .grid_10 embed,
+.container .grid_10 img, .container .grid_10 iframe, .container .grid_10 embed,
+.container .grid_11 img, .container .grid_11 iframe, .container .grid_11 embed,
+.container .grid_11 img, .container .grid_11 iframe, .container .grid_11 embed,
+.container .grid_12 img, .container .grid_12 iframe, .container .grid_12 embed,
+.container .grid_12 img, .container .grid_12 iframe, .container .grid_12 embed {
+	max-width:100% !important;
+}
+
+.container div img {
+	height:auto;
+}
+
+/* Prefix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.container .prefix_1 {
+	padding-left:40px;
+}
+
+.container .prefix_2 {
+	padding-left:80px;
+}
+
+.container .prefix_3 {
+	padding-left:120px;
+}
+
+.container .prefix_4 {
+	padding-left:160px;
+}
+
+.container .prefix_5 {
+	padding-left:200px;
+}
+
+.container .prefix_6 {
+	padding-left:240px;
+}
+
+.container .prefix_7 {
+	padding-left:280px;
+}
+
+.container .prefix_8 {
+	padding-left:320px;
+}
+
+.container .prefix_9 {
+	padding-left:360px;
+}
+
+.container .prefix_10 {
+	padding-left:400px;
+}
+
+.container .prefix_11 {
+	padding-left:440px;
+}
+
+.container .grid_12[class*="prefix_"] {
+    padding-left:0;
+}
+
+
+/* Suffix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.container .suffix_1 {
+	padding-right:40px;
+}
+
+.container .suffix_2 {
+	padding-right:80px;
+}
+
+.container .suffix_3 {
+	padding-right:120px;
+}
+
+.container .suffix_4 {
+	padding-right:160px;
+}
+
+.container .suffix_5 {
+	padding-right:200px;
+}
+
+.container .suffix_6 {
+	padding-right:240px;
+}
+
+.container .suffix_7 {
+	padding-right:280px;
+}
+
+.container .suffix_8 {
+	padding-right:320px;
+}
+
+.container .suffix_9 {
+	padding-right:360px;
+}
+
+.container .suffix_10 {
+	padding-right:400px;
+}
+
+.container .suffix_11 {
+	padding-right:440px;
+}
+
+.container .grid_12[class*="suffix_"] {
+    padding-right:0;
+}
+
+/* Push Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.container .push_1 {
+	left:40px;
+}
+
+.container .push_2 {
+	left:80px;
+}
+
+.container .push_3 {
+	left:120px;
+}
+
+.container .push_4 {
+	left:160px;
+}
+
+.container .push_5 {
+	left:200px;
+}
+
+.container .push_6 {
+	left:240px;
+}
+
+.container .push_7 {
+	left:280px;
+}
+
+.container .push_8 {
+	left:320px;
+}
+
+.container .push_9 {
+	left:360px;
+}
+
+.container .push_10 {
+	left:400px;
+}
+
+.container .push_11 {
+	left:440px;
+}
+
+
+
+/* Pull Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.container .pull_1 {
+	left:-40px;
+}
+
+.container .pull_2 {
+	left:-80px;
+}
+
+.container .pull_3 {
+	left:-120px;
+}
+
+.container .pull_4 {
+	left:-160px;
+}
+
+.container .pull_5 {
+	left:-200px;
+}
+
+.container .pull_6 {
+	left:-240px;
+}
+
+.container .pull_7 {
+	left:-280px;
+}
+
+.container .pull_8 {
+	left:-320px;
+}
+
+.container .pull_9 {
+	left:-360px;
+}
+
+.container .pull_10 {
+	left:-400px;
+}
+
+.container .pull_11 {
+	left:-440px;
+}
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear_480 { /* clear only for this resolution */
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* Show/hide for mode
+----------------------------------------------------------------------------------------------------*/
+
+.not_480 {
+  display:none !important;
+}
+
+.only_480 {
+  display:block !important;
+}
+.lg-scr {
+  display:none !important;
+}
+
+.xs-scr {
+  display:block !important;
+}
+}
+
+
+@media screen and (max-width: 479px) {
+
+body {
+  min-width: 312px;
+  min-height: 480px;
+  height: auto;
+  overflow-x: visible;
+}
+
+/* Containers
+----------------------------------------------------------------------------------------------------*/
+.container {
+  width: 100%;
+  /*background-color: #fff;*/  
+}
+
+.body-container {
+  width: 100%;
+}
+    
+
+/* `Public Rules
+----------------------------------------------------------------------------------------------------*/
+
+.gutt-right { margin-right: auto;}
+
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+/* Grid >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container .grid_1,
+.container .grid_2,
+.container .grid_3,
+.container .grid_4,
+.container .grid_5,
+.container .grid_6,
+.container .grid_7,
+.container .grid_8,
+.container .grid_9,
+.container .grid_10,
+.container .grid_11,
+.container .grid_12 {
+  width:90%;
+}
+    
+
+/* `Span >> 12 Columns without margins
+----------------------------------------------------------------------------------------------------*/
+
+.span1,
+.span2,
+.span3,
+.span4,
+.span5,
+.span6,
+.span7,
+.span8,
+.span9,
+.span10,
+.span11,
+.span12 {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* Media max-widths
+----------------------------------------------------------------------------------------------------*/
+
+.container .grid_1 img, .container .grid_1 iframe, .container .grid_1 embed,
+.container .grid_1 img, .container .grid_1 iframe, .container .grid_1 embed,
+.container .grid_2 img, .container .grid_2 iframe, .container .grid_2 embed,
+.container .grid_2 img, .container .grid_2 iframe, .container .grid_2 embed,
+.container .grid_3 img, .container .grid_3 iframe, .container .grid_3 embed,
+.container .grid_3 img, .container .grid_3 iframe, .container .grid_3 embed,
+.container .grid_4 img, .container .grid_4 iframe, .container .grid_4 embed,
+.container .grid_4 img, .container .grid_4 iframe, .container .grid_4 embed,
+.container .grid_5 img, .container .grid_5 iframe, .container .grid_5 embed,
+.container .grid_5 img, .container .grid_5 iframe, .container .grid_5 embed,
+.container .grid_6 img, .container .grid_6 iframe, .container .grid_6 embed,
+.container .grid_6 img, .container .grid_6 iframe, .container .grid_6 embed,
+.container .grid_7 img, .container .grid_7 iframe, .container .grid_7 embed,
+.container .grid_7 img, .container .grid_7 iframe, .container .grid_7 embed,
+.container .grid_8 img, .container .grid_8 iframe, .container .grid_8 embed,
+.container .grid_8 img, .container .grid_8 iframe, .container .grid_8 embed,
+.container .grid_9 img, .container .grid_9 iframe, .container .grid_9 embed,
+.container .grid_9 img, .container .grid_9 iframe, .container .grid_9 embed,
+.container .grid_10 img, .container .grid_10 iframe, .container .grid_10 embed,
+.container .grid_10 img, .container .grid_10 iframe, .container .grid_10 embed,
+.container .grid_11 img, .container .grid_11 iframe, .container .grid_11 embed,
+.container .grid_11 img, .container .grid_11 iframe, .container .grid_11 embed,
+.container .grid_12 img, .container .grid_12 iframe, .container .grid_12 embed,
+.container .grid_12 img, .container .grid_12 iframe, .container .grid_12 embed {
+	max-width:100% !important;
+}
+
+.container div img {
+	height:auto;
+}
+
+/* Prefix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.container .prefix_1 {
+	padding-left:26px;
+}
+
+.container .prefix_2 {
+	padding-left:52px;
+}
+
+.container .prefix_3 {
+	padding-left:78px;
+}
+
+.container .prefix_4 {
+	padding-left:104px;
+}
+
+.container .prefix_5 {
+	padding-left:130px;
+}
+
+.container .prefix_6 {
+	padding-left:156px;
+}
+
+.container .prefix_7 {
+	padding-left:182px;
+}
+
+.container .prefix_8 {
+	padding-left:208px;
+}
+
+.container .prefix_9 {
+	padding-left:234px;
+}
+
+.container .prefix_10 {
+	padding-left:260px;
+}
+
+.container .prefix_11 {
+	padding-left:286px;
+}
+
+.container .grid_12[class*="prefix_"] {
+    padding-left:0;
+}
+
+
+/* Suffix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.container .suffix_1 {
+	padding-right:26px;
+}
+
+.container .suffix_2 {
+	padding-right:52px;
+}
+
+.container .suffix_3 {
+	padding-right:78px;
+}
+
+.container .suffix_4 {
+	padding-right:104px;
+}
+
+.container .suffix_5 {
+	padding-right:130px;
+}
+
+.container .suffix_6 {
+	padding-right:156px;
+}
+
+.container .suffix_7 {
+	padding-right:182px;
+}
+
+.container .suffix_8 {
+	padding-right:208px;
+}
+
+.container .suffix_9 {
+	padding-right:234px;
+}
+
+.container .suffix_10 {
+	padding-right:260px;
+}
+
+.container .suffix_11 {
+	padding-right:286px;
+}
+
+.container .grid_12[class*="suffix_"] {
+    padding-right:0;
+}
+
+
+/* Push Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.container .push_1 {
+	left:26px;
+}
+
+.container .push_2 {
+	left:52px;
+}
+
+.container .push_3 {
+	left:78px;
+}
+
+.container .push_4 {
+	left:104px;
+}
+
+.container .push_5 {
+	left:130px;
+}
+
+.container .push_6 {
+	left:156px;
+}
+
+.container .push_7 {
+	left:182px;
+}
+
+.container .push_8 {
+	left:208px;
+}
+
+.container .push_9 {
+	left:234px;
+}
+
+.container .push_10 {
+	left:260px;
+}
+
+.container .push_11 {
+	left:286px;
+}
+
+
+
+/* Pull Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.container .pull_1 {
+	left:-26px;
+}
+
+.container .pull_2 {
+	left:-52px;
+}
+
+.container .pull_3 {
+	left:-78px;
+}
+
+.container .pull_4 {
+	left:-104px;
+}
+
+.container .pull_5 {
+	left:-130px;
+}
+
+.container .pull_6 {
+	left:-156px;
+}
+
+.container .pull_7 {
+	left:-182px;
+}
+
+.container .pull_8 {
+	left:-208px;
+}
+
+.container .pull_9 {
+	left:-234px;
+}
+
+.container .pull_10 {
+	left:-260px;
+}
+
+.container .pull_11 {
+	left:-286px;
+}
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear_320 { /* clear only for this resolution */
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* Show/hide for mode
+----------------------------------------------------------------------------------------------------*/
+
+.lg-scr {
+  display:none !important;
+}
+
+.xs-scr {
+  display:block !important;
+}
+}
